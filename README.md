@@ -1,8 +1,19 @@
 # GrantFit
 
-GrantFit matches applicant profiles to grant and scholarship notices. A Python worker and a Supabase Edge Function pull public notices from [Grants.gov](https://www.grants.gov/) (no API key), normalize them, and upsert them into Postgres. Eligibility and ranking run in SQL. The web demo and the CLI only read the result.
+[![CI](https://github.com/SlipstreamAI/grantfit/actions/workflows/ci.yml/badge.svg)](https://github.com/SlipstreamAI/grantfit/actions/workflows/ci.yml)
+![pgTAP](https://img.shields.io/badge/pgTAP-86%20passed-1f6b4a)
+![pytest](https://img.shields.io/badge/pytest-22%20passed-1f6b4a)
+![Deno](https://img.shields.io/badge/Deno-9%20passed-1f6b4a)
 
-Sample notices in the seed file are original composites, so the demo works with the network off. Real notices use `source = grants_gov`.
+Match an applicant to grants and scholarships in Postgres, then keep the Grants.gov sync inside a request budget.
+
+GrantFit pulls public notices from the keyless [Grants.gov](https://www.grants.gov/) API, normalizes them, and upserts them idempotently. Eligibility is a set of hard rules in SQL: open window, applicant type, state, award size, and opportunity kind. A 100-point score explains the fit even when a notice is only a near miss. The Next.js demo and the CLI read that result. They do not rescore it.
+
+![GrantFit ranking Harborlight Community Clinic against sample notices](docs/demo.png)
+
+*Harborlight Community Clinic, a rural California nonprofit. Rural Health Network Outreach scores 95. The closed prior cycle scores 77 and stays a near miss.*
+
+Sample notices ship with the seed, so the demo runs with the network off. Live notices use `source = grants_gov`.
 
 ## Architecture
 
@@ -73,6 +84,8 @@ grants_gov: 11 of 200 used (189 remaining) status=success
 Requirements: Postgres 16 or newer, [pgTAP](https://pgtap.org/) (`postgresql-16-pgtap` and the `pgtap` package, which provides `pg_prove`), Python 3.11+, and Node 20+ for the web demo. The Supabase CLI is optional and needs Docker.
 
 ```bash
+git clone https://github.com/SlipstreamAI/grantfit.git
+cd grantfit
 scripts/bootstrap_local.sh
 python -m venv .venv
 .venv/bin/pip install -e "./worker[dev]"
