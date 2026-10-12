@@ -1,0 +1,46 @@
+{
+  "source": "grants_gov",
+  "external_id": "361238",
+  "opportunity_number": "26-503",
+  "title": "Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)",
+  "summary": "Government and the nation face a talent shortfall in artificial intelligence (AI) and cybersecurity. The CyberAICorps Scholarship for Service ( CyberAI SFS ) program welcomes proposals that address AI and cybersecurity education and workforce development. CyberAI refers to using AI in cybersecurity as well as providing security and resilience for AI systems. The Scholarship Track provides funding to establish, or to continue, scholarship for service programs with integrated AI and cybersecurity components (CyberAI). Scholarship recipients must be U.S. citizens or lawful permanent residents and work after graduation in the AI or cybersecurity mission of a government organization for a period of at least the length of the scholarship. The Innovation Track supports projects that enhance preparation of AI and/or cybersecurity professionals. Projects may expand existing educational opportunities, curricula, degree programs, educational pathways, methods and interventions, and partnerships among institutions of higher education, government, and employers. Two statutes authorize this program: 15 USC \u00a77442 (cybersecurity) and 42 USC \u00a718993 (AI). CyberAI SFS aligns with the Executive Order 14277 to prioritize AI within scholarship for service programs. CyberAI is managed by NSF\u2019s Directorate for STEM Education in collaboration with the U.S. Office of Personnel Management (OPM) and U.S. Department of Homeland Security (DHS).",
+  "agency": "U.S. National Science Foundation",
+  "agency_code": "NSF",
+  "kind": "grant",
+  "status": "open",
+  "open_date": "2026-02-04",
+  "close_date": "2027-04-05",
+  "award_floor": 300000,
+  "award_ceiling": 2500000,
+  "estimated_funding": 2500000,
+  "eligible_applicants": [
+    "nonprofit",
+    "university"
+  ],
+  "eligibility_basis": "narrative",
+  "topics": [
+    "education",
+    "stem"
+  ],
+  "keywords": [
+    "artificial",
+    "intelligence",
+    "cybersecurity",
+    "education",
+    "innovation",
+    "scholarship",
+    "cyberai",
+    "government",
+    "nation",
+    "face",
+    "talent",
+    "shortfall"
+  ],
+  "geo_scope": "national",
+  "states": [],
+  "tags": [
+    "scholarship_program"
+  ],
+  "url": "https://www.grants.gov/search-results-detail/361238",
+  "list_fingerprint": "54b0bbee6436bf82024f6f268e8ee34b6bd8d5e3ebb4f99906072cfdcc2e8da5"
+}

@@ -1,0 +1,38 @@
+{
+  "errorcode": 0,
+  "msg": "Webservice Succeeds",
+  "data": {
+    "hitCount": 60,
+    "startRecord": 0,
+    "oppHits": [
+      {
+        "id": "361238",
+        "number": "26-503",
+        "title": "Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)",
+        "agencyCode": "NSF",
+        "agency": "U.S. National Science Foundation",
+        "openDate": "02/04/2026",
+        "closeDate": "04/05/2027",
+        "oppStatus": "posted",
+        "docType": "synopsis",
+        "cfdaList": [
+          "47.076"
+        ]
+      },
+      {
+        "id": "329436",
+        "number": "DE-FOA-0002265",
+        "title": "University Nuclear Leadership Program&ndash; Scholarship and Fellowship Support",
+        "agencyCode": "DOE-ID",
+        "agency": "Idaho Field Office",
+        "openDate": "10/15/2020",
+        "closeDate": "10/14/2030",
+        "oppStatus": "posted",
+        "docType": "synopsis",
+        "cfdaList": [
+          "81.121"
+        ]
+      }
+    ]
+  }
+}

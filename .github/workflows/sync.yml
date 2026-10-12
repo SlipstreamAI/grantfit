@@ -1,0 +1,26 @@
+name: Sync Grants.gov
+
+on:
+  schedule:
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the worker
+        run: python -m pip install -e ./worker
+      - name: Sync within the database budget
+        env:
+          GRANTFIT_DATABASE_URL: ${{ secrets.GRANTFIT_DATABASE_URL }}
+        run: |
+          if [ -z "$GRANTFIT_DATABASE_URL" ]; then
+            echo "GRANTFIT_DATABASE_URL is not set. Add the worker connection string as a repository secret."
+            exit 0
+          fi
+          python -m grantfit sync --all-queries --max-requests 40 --max-pages 2 --json

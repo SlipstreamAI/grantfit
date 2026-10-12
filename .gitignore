@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.env
+.env.local
+.env.*.local
+node_modules/
+.next/
+supabase/.temp/
+supabase/.branches/
+.DS_Store
+*.tsbuildinfo

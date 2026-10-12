@@ -1,0 +1,47 @@
+{
+  "errorcode": 0,
+  "msg": "Webservice Succeeds",
+  "data": {
+    "id": 361238,
+    "revision": 8,
+    "opportunityNumber": "26-503",
+    "opportunityTitle": "Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)",
+    "docType": "synopsis",
+    "owningAgencyCode": "NSF",
+    "synopsis": {
+      "estimatedFunding": "2500000",
+      "awardCeilingFormatted": "2,500,000",
+      "agencyName": "U.S. National Science Foundation",
+      "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26503",
+      "awardFloorFormatted": "300,000",
+      "postingDateStr": "2026-02-04-00-00-00",
+      "synopsisDesc": "<p>Government and the nation face a talent shortfall in artificial intelligence (AI) and cybersecurity. The CyberAICorps Scholarship for Service (<strong>CyberAI SFS</strong>) program welcomes proposals that address AI and cybersecurity education and workforce development. CyberAI refers to using AI in cybersecurity as well as providing security and resilience for AI systems.</p>\n<ul>\n<li>The <strong>Scholarship Track</strong> provides funding to establish, or to continue, scholarship for service programs with integrated AI and cybersecurity components (CyberAI). Scholarship recipients <strong>must</strong> be U.S. citizens or lawful permanent residents and work after graduation in the AI or cybersecurity mission of a government organization for a period of at least the length of the scholarship.</li>\n<li>The<strong> Innovation Track</strong>&nbsp;supports projects that enhance preparation of AI and/or cybersecurity professionals. Projects may expand existing educational opportunities, curricula, degree programs, educational pathways, methods and interventions, and partnerships among institutions of higher education, government, and employers.</li>\n</ul>\n<p>Two statutes&nbsp;authorize this program:&nbsp; <a href=\"https://uscodeweb1.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7442&amp;edition=prelim\">15 USC &sect;7442</a>&nbsp;(cybersecurity) and&nbsp;<a href=\"https://uscodeweb1.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section18993&amp;edition=prelim\">42 USC &sect;18993</a>&nbsp;(AI). CyberAI SFS aligns with the <a href=\"https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07368.pdf\">Executive Order 14277</a> to prioritize AI within scholarship for service programs. CyberAI is managed by NSF&rsquo;s Directorate for STEM Education in collaboration with the <a href=\"https://sfs.opm.gov/\">U.S. Office of Personnel Management (OPM)</a> and <a href=\"https://niccs.cisa.gov/resources/cybersecurity-scholarships\">U.S. Department of Homeland Security (DHS).</a></p>",
+      "postingDate": "Feb 04, 2026 12:00:00 AM EST",
+      "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -For the Scholarship Track:\n\nInstitutions of Higher Education (IHEs) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Community colleges are eligible only as sub-awardees of a partnering four-year SFS institutions as described in the Program Description section.\n\nFor the Innovation Track:&amp;nbsp;\n\nInstitutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the U.S., acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus and justify why the project activities cannot be performed at the US campus.\nNon-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies, and similar organizations located in the U.S. that are directly associated with educational or research activities.\n\n*Who May Serve as PI:\nAs of the date the proposal is submitted, any PI, co-PI, or other Senior/Key project personnel must hold either:\n\na tenured or tenure-track position, or\na primary, full-time, paid appointment in a research, administration, or teaching position\n\nat a US-based campus of an organization eligible to submit to this solicitation (see above), with exceptions granted for family or medical leave, as determined by the submitting organization. Individuals with primary appointments at for-profit non-academic organizations or at overseas branch campuses of U.S. institutions of higher education are not eligible.",
+      "fundingInstruments": [
+        {
+          "id": "G",
+          "description": "Grant"
+        }
+      ],
+      "awardCeiling": "2500000",
+      "responseDate": "Apr 05, 2027 12:00:00 AM EDT",
+      "awardFloor": "300000",
+      "numberOfAwards": "25",
+      "responseDateStr": "2027-04-05-00-00-00",
+      "applicantTypes": [
+        {
+          "id": "25",
+          "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+        }
+      ],
+      "agencyCode": "NSF",
+      "fundingActivityCategories": [
+        {
+          "id": "ST",
+          "description": "Science and Technology and other Research and Development"
+        }
+      ]
+    }
+  }
+}
